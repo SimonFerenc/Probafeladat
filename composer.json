@@ -1,0 +1,12 @@
+{
+    "require": {
+        "symfony/console": "^3.3",
+        "paquettg/php-html-parser": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Console\\": "src/"
+        },
+        "classmap": ["src"]
+    }
+}
