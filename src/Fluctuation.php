@@ -14,7 +14,6 @@ class Fluctuation
         $this->week = $week;
     }
 
-
     public function getDailyFluctuations()
     {
         $dailyFluctuations = [];
