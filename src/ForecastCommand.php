@@ -56,7 +56,7 @@ class ForecastCommand extends SymfonyCommand
                 $output -> write("A legkisebb hőingás: " .$minDailyFluctuations) ;
                  break;    
                 default:
-                $output -> write("A következő értéket adja meg: median, deviation, average") ;
+                $output -> write("A következő értéket adja meg: median, deviation, average, maxdaily, mindaily") ;
         }
 
 
