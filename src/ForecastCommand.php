@@ -1,5 +1,11 @@
 <?php namespace Console;
 use Console\Week\Week;
+use Console\Calculations\Median;
+use Console\Calculations\Fluctuation;
+use Console\Calculations\Average;
+use Console\Calculations\Deviation;
+use Console\Calculations\MaxFluctuations;
+use Console\Calculations\MinFluctuations;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -21,9 +27,6 @@ class ForecastCommand extends SymfonyCommand
 
     public function execute(InputInterface $input, OutputInterface $output)
     {
-                
-                
-       
 
         $week = new Week();
         $fluctuation = new Fluctuation($week);

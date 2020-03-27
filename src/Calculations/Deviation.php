@@ -1,6 +1,6 @@
 <?php
 
-namespace Console;
+namespace Console\Calculations;
 use Console\Week\Week;
 
 class Deviation {
