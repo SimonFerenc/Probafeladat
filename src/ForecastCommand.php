@@ -6,7 +6,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Command\Command as SymfonyCommand;
 
 
-class TimeCommand extends SymfonyCommand
+class ForecastCommand extends SymfonyCommand
 {
     
     public function configure()
