@@ -23,11 +23,7 @@ class ForecastCommand extends SymfonyCommand
     {
                 
                 
-        $output -> writeln([
-            '====**** User Greetings Console App ****====',
-            '==========================================',
-            '',
-        ]);
+       
 
         $week = new Week();
         $fluctuation = new Fluctuation($week);

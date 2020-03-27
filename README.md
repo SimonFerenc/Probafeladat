@@ -3,8 +3,7 @@
 This is a Forecast programm, witch calculate the median, the deviation, the average and the fluctuation of the week.
 
 
-
-#  Howe to run the code:
+#  How to run the code:
  ./console what "the value you are looking for (median, average, maxdaily, mindaily, deviation)"
 
 
