@@ -1,5 +1,5 @@
 <?php
-namespace Console\Calculations;
+namespace Console\ForecastStatistics;
 use Console\Week\Week;
    
 class Median

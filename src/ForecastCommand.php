@@ -1,11 +1,11 @@
 <?php namespace Console;
 use Console\Week\Week;
-use Console\Calculations\Median;
-use Console\Calculations\Fluctuation;
-use Console\Calculations\Average;
-use Console\Calculations\Deviation;
-use Console\Calculations\MaxFluctuations;
-use Console\Calculations\MinFluctuations;
+use Console\ForecastStatistics\Median;
+use Console\ForecastStatistics\Fluctuation;
+use Console\ForecastStatistics\Average;
+use Console\ForecastStatistics\Deviation;
+use Console\ForecastStatistics\MaxFluctuations;
+use Console\ForecastStatistics\MinFluctuations;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
