@@ -13,9 +13,9 @@ class TimeCommand extends SymfonyCommand
     {
         $this
             ->setName('what')
-            ->setDescription('Greet a user based on the time of the day.')
-            ->setHelp('This command allows you to greet a user based on the time of the day...')
-            ->addArgument('forecastStatistic', InputArgument::REQUIRED, 'foecast');
+            ->setDescription('Get the values')
+            ->setHelp('This command allows you to get the values')
+            ->addArgument('forecastStatistic', InputArgument::REQUIRED, 'forecast');
 
     }
 
